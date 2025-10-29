@@ -7,12 +7,13 @@ To install this code, PETSc 3.18.6 and FastScapeLib is needed. The installation 
 [FastScapeLib](https://fastscape.org/fastscapelib-fortran/)
 
 Next you need to specify the environmental variables PETSC_OPT and FASTSCAPE_LIB
-
+```bash
 export PETSC_OPT=/path/you/install/
-
+```
+```bash
 export FASTSCAPE_LIB=/path/you/install/
-
+```
 Next you can install the coupling module through:
-
+```bash
 make mode=optFS all surface=SURFACE=1
-
+```
